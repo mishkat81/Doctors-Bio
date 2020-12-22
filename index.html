@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors Details of Feni</title>
+    <style>
+		*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+body{
+    padding: 40px 10px;
+    background-color: #000;
+}
+.hospital-section{
+    margin-bottom: 50px;
+}
+strong{
+    color: #0febc2;
+}
+.title{
+    text-transform: uppercase;
+    color: #b8deee;
+    font-size: 16px;
+}
+.title span{
+    font-size: 11px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 24px;
+    margin: 10px auto 0;
+    color: #4a788b;
+    border-radius: 10px;
+}
+table thead{
+    background-color: #d32f2f;
+    color: yellow;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.smart-table .dr-bg{
+    background-color: #000;
+    color: #fff;
+}
+.smart-table .time-bg{
+    background-color: yellow;
+    color: #000;
+}
+table th, table td{
+    border: 1px solid #6fcfff;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+table td{
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background-color: #8a0e22;
+}
+table .active{
+    background-color: green;
+}
+
+
+
+@media screen and (max-width:767px){
+       .title{
+        text-align: left;
+    }
+    .smart-table td.sl-color{
+        border-top: 3px solid white;
+        border-right: 3px solid white;
+        border-bottom: 3px solid white;
+        border-left: 3px solid white;
+    }
+    .smart-table thead{
+        display: none;
+    }
+    .smart-table tr, .smart-table td{
+        display: block;
+    }
+    .smart-table tr:not(:last-child){
+        border-bottom: 8px solid #000;
+    }
+    .smart-table td{
+        padding-left: 54%;
+        background-color: #8a0e22;
+        color: rgb(250, 249, 249);
+        position: relative;
+    }
+    .smart-table td::before{
+        position: absolute;
+        content: attr(data-title);
+        left: 0;
+        top: 0;
+        bottom: 0;
+        padding: 5px;
+        background-color: #d32f2f;
+        color: yellow;
+        width: 45%;
+        font-weight: bold;
+    }
+    .smart-table .dr-bg{
+        background-color: #000;
+    }
+    .smart-table .time-bg{
+        background-color: yellow;
+        color: #000;
+    }
+    .smart-table .active{
+        background-color: green;
+    }
+}
+
+@media screen and (min-width:768px){
+    .smart-table{
+        table-layout: auto;
+    }
+    .r-style{
+        overflow-x: auto;
+    }
+}
+	</style>
+</head>
+<body>
+
+    <!-- ZU Model Hospital start-->
+    <section class="hospital-section">
+        <h2 class="title">Doctors of <strong>Z.U. model Hospital</strong> - <span>Karim tower,Shahid shaidullah kaysar(S.S.K) road, feni</span> :</h2>
+        <div class="r-style">
+            <table class="smart-table">
+                <thead>
+                    <tr>
+                        <th>Sl.No</th>
+                        <th>Dr.Name</th>
+                        <th>Chamber-day+time</th>
+                        <th>Degree</th>
+                        <th>Designation</th>
+                        <th>Spceiality</th>
+                        <th>Inst.Address</th>
+                        <th>Chamber Ad</th>
+                        <th>Pati-insti/day</th>
+                        <th>Pati-cham/day</th>
+                        <th>Distict</th>
+                        <th>Police st.</th>
+                        <th>Mobile</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-title="Sl.No" class="active sl-color">01</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.Towhidur Rahman</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 11.00am-1.00pm</td>
+                        <td data-title="Degree">MBBS, D-card, css</td>
+                        <td data-title="Designation">Ex.consultant</td>
+                        <td data-title="Spceiality">Cardilogist</td>
+                        <td data-title="Inst.Address">N/A</td>
+                        <td data-title="Chamber Ad">Z.u hospital,ssk road,feni</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">15</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01611568680</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="active sl-color">02</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.Mubarok hussain dolal</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 04.00pm-7.00pm</td>
+                        <td data-title="Degree">MBBS, </td>
+                        <td data-title="Designation">consultant</td>
+                        <td data-title="Spceiality">ENT</td>
+                        <td data-title="Inst.Address">Sadar hospital,feni</td>
+                        <td data-title="Chamber Ad">Z.u hospital,ssk road,feni</td>
+                        <td data-title="Pati-insti/day">25</td>
+                        <td data-title="Pati-cham/day">15</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01552329511</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">03</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.md.kamal uddin</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sun, tue & Thu: 04.00pm-09.00pm</td>
+                        <td data-title="Degree">MBBS, D-ortho</td>
+                        <td data-title="Designation">Register</td>
+                        <td data-title="Spceiality">Orthopedicts</td>
+                        <td data-title="Inst.Address">chittagong medical college Hospital</td>
+                        <td data-title="Chamber Ad">Z.u hospital,ssk road,feni</td>
+                        <td data-title="Pati-insti/day">15</td>
+                        <td data-title="Pati-cham/day">15</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01711303602</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">04</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.shamima akter</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 04.00pm-09.00pm</td>
+                        <td data-title="Degree">MBBS,fcps</td>
+                        <td data-title="Designation">Ex.assit.prof</td>
+                        <td data-title="Spceiality">Gynea & Obs</td>
+                        <td data-title="Inst.Address">N/A</td>
+                        <td data-title="Chamber Ad">Z.u hospital,ssk road,feni</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">15</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01912851158</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">05</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.sanjoy kumar paul</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 04.00pm-09.00pm</td>
+                        <td data-title="Degree">MBBS,fcps</td>
+                        <td data-title="Designation">assit.prof</td>
+                        <td data-title="Spceiality">Medicine specialist</td>
+                        <td data-title="Inst.Address">Abdul malik ukil medical college & Hospital, Noakhali</td>
+                        <td data-title="Chamber Ad">Z.u hospital,ssk road,feni</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">10</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01712125496</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- ZU Model Hospital end -->
+
+    <!-- Feni cardiac center start -->
+    <section class="hospital-section">
+        <h2 class="title">Doctors of <strong>feni cardiac center & specialist Hospital</strong> - <span>170,Shahid shaidullah kaysar(S.S.K) road, feni</span> :</h2>
+        <div class="r-style">
+            <table class="smart-table">
+                <thead>
+                    <tr>
+                        <th>Sl.No</th>
+                        <th>Dr.Name</th>
+                        <th>Chamber-day+time</th>
+                        <th>Degree</th>
+                        <th>Designation</th>
+                        <th>Spceiality</th>
+                        <th>Inst.Address</th>
+                        <th>Chamber Ad</th>
+                        <th>Pati-insti/day</th>
+                        <th>Pati-cham/day</th>
+                        <th>Distict</th>
+                        <th>Police st.</th>
+                        <th>Mobile</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">01</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.Sharfuddin mahmud</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 04.00pm-8.00pm</td>
+                        <td data-title="Degree">MBBS,fcps, D-card, mrcp(uk,london)</td>
+                        <td data-title="Designation">consultant</td>
+                        <td data-title="Spceiality">Cardilogist</td>
+                        <td data-title="Inst.Address">Sadar Hospital,feni</td>
+                        <td data-title="Chamber Ad">feni cardiac center</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">10</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01816282684</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">02</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.Tanvir ahmed (sonet)</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 04.00pm-8.00pm</td>
+                        <td data-title="Degree">MBBS,fcps(surgery) </td>
+                        <td data-title="Designation">consultant</td>
+                        <td data-title="Spceiality">surgon</td>
+                        <td data-title="Inst.Address">fulgazi thc,feni</td>
+                        <td data-title="Chamber Ad">feni cardiac center</td>
+                        <td data-title="Pati-insti/day">8</td>
+                        <td data-title="Pati-cham/day">8</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01717108728</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">03</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.md.showkot hasan</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sun, tue & Thu:09am-2pm & 04.00pm-08.00pm</td>
+                        <td data-title="Degree">MBBS, D-card, pgt</td>
+                        <td data-title="Designation">consultant</td>
+                        <td data-title="Spceiality">cardiologist</td>
+                        <td data-title="Inst.Address">N/A</td>
+                        <td data-title="Chamber Ad">feni cardiac center</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">7</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01723771090</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">04</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.jasrin akter(mili)</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu:9am-2pm & 04.00pm-08.00pm</td>
+                        <td data-title="Degree">MBBS,dgo</td>
+                        <td data-title="Designation">medical officer</td>
+                        <td data-title="Spceiality">Gynea & Obs</td>
+                        <td data-title="Inst.Address">N/A</td>
+                        <td data-title="Chamber Ad">feni cardiac center</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">8</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01712234969</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">05</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.md.imam hussain rubel</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu:8am-2pm & 03.00pm-09.00pm</td>
+                        <td data-title="Degree">MBBS,ccd, cmu(ultra)</td>
+                        <td data-title="Designation">Medical officer</td>
+                        <td data-title="Spceiality">Medicine specialist</td>
+                        <td data-title="Inst.Address">N/A</td>
+                        <td data-title="Chamber Ad">feni cardiac center</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">12</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01886759021</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">06</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.zahid hussain</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Thu: 04.00pm-04.00pm</td>
+                        <td data-title="Degree">MBBS,fcps(physical medicine)</td>
+                        <td data-title="Designation">consultant</td>
+                        <td data-title="Spceiality">physical medicine</td>
+                        <td data-title="Inst.Address">dmch, dhaka</td>
+                        <td data-title="Chamber Ad">feni cardiac center</td>
+                        <td data-title="Pati-insti/day">20</td>
+                        <td data-title="Pati-cham/day">18</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01671086620</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">07</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.s.m.foyez akber</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Fri: 09.00am-02.00pm</td>
+                        <td data-title="Degree">MBBS,ccd, d-card</td>
+                        <td data-title="Designation">consultant</td>
+                        <td data-title="Spceiality">cardiologist</td>
+                        <td data-title="Inst.Address">ssmch, dhaka</td>
+                        <td data-title="Chamber Ad">feni cardiac center</td>
+                        <td data-title="Pati-insti/day">20</td>
+                        <td data-title="Pati-cham/day">18</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01717058762</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">08</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.md.musa hasnath</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Fri & Sat:10am-1pm & 03.00pm-08.00pm</td>
+                        <td data-title="Degree">MBBS,ccd,fcgp, md(medicine)</td>
+                        <td data-title="Designation">consultant</td>
+                        <td data-title="Spceiality">Medicine specialist</td>
+                        <td data-title="Inst.Address">ssmch, dhaka</td>
+                        <td data-title="Chamber Ad">feni cardiac center</td>
+                        <td data-title="Pati-insti/day">20</td>
+                        <td data-title="Pati-cham/day">30/2days</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01905111999</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- Feni cardiac center end -->
+
+    <!-- New uposhohom hospital start -->
+    <section class="hospital-section">
+        <h2 class="title">Doctors of <strong>new uposhohom general Hospital ltd</strong> - <span>monohor tower,Shahid shaidullah kaysar(S.S.K) road, feni</span> :</h2>
+        <div class="r-style">
+            <table class="smart-table">
+                <thead>
+                    <tr>
+                        <th>Sl.No</th>
+                        <th>Dr.Name</th>
+                        <th>Chamber-day+time</th>
+                        <th>Degree</th>
+                        <th>Designation</th>
+                        <th>Spceiality</th>
+                        <th>Inst.Address</th>
+                        <th>Chamber Ad</th>
+                        <th>Pati-insti/day</th>
+                        <th>Pati-cham/day</th>
+                        <th>Distict</th>
+                        <th>Police st.</th>
+                        <th>Mobile</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">01</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.Hasina akter shawpna</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 04.00pm-8.00pm</td>
+                        <td data-title="Degree">MBBS,fcps</td>
+                        <td data-title="Designation">assist.prof.</td>
+                        <td data-title="Spceiality">Gynea & obs</td>
+                        <td data-title="Inst.Address">amumch, noakhali</td>
+                        <td data-title="Chamber Ad">new uposhohom general hospital</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">25</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01717033943</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">02</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.md.joynal abedin</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 06.00pm-9.00pm & Fri:10am-2pm</td>
+                        <td data-title="Degree">MBBS,md(medicine)</td>
+                        <td data-title="Designation">Associ.prof.</td>
+                        <td data-title="Spceiality">medicine specialist</td>
+                        <td data-title="Inst.Address">amumch, noakhali</td>
+                        <td data-title="Chamber Ad">new uposhohom general hospital</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">25</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01711178818</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">03</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.joya paul</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 04.00pm-08.00pm</td>
+                        <td data-title="Degree">MBBS, ddv</td>
+                        <td data-title="Designation">consultant</td>
+                        <td data-title="Spceiality">skin & vd</td>
+                        <td data-title="Inst.Address">N/A</td>
+                        <td data-title="Chamber Ad">new uposhohom general hospital</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">10</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01744235323</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">04</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.md.masum kabir</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Thu & Fri: 05.00pm-08.00pm</td>
+                        <td data-title="Degree">MBBS,d-ortho</td>
+                        <td data-title="Designation">assist.prof</td>
+                        <td data-title="Spceiality">Orthopedicts</td>
+                        <td data-title="Inst.Address">amumch, noakhali</td>
+                        <td data-title="Chamber Ad">new uposhohom general hospital</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">30/2days</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01711015404</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">05</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.bimol chandra das</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Fri:9am-2pm & 04.00pm-08.00pm</td>
+                        <td data-title="Degree">MBBS,dch,md(child)</td>
+                        <td data-title="Designation">associ.prof.</td>
+                        <td data-title="Spceiality">child specialist</td>
+                        <td data-title="Inst.Address">noakhali medical college, noakhali</td>
+                        <td data-title="Chamber Ad">new uposhohom general hospital</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">30</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01711761599</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- New uposhohom hospital end -->
+
+
+    <!-- Al-Kemy Hospital start -->
+    <section class="hospital-section">
+        <h2 class="title">Doctors of <strong>Al-kemy Hospital ltd & computerized d/c</strong> - <span>Shahid shaidullah kaysar(S.S.K) road, feni</span> :</h2>
+        <div class="r-style">
+            <table class="smart-table">
+                <thead>
+                    <tr>
+                        <th>Sl.No</th>
+                        <th>Dr.Name</th>
+                        <th>Chamber-day+time</th>
+                        <th>Degree</th>
+                        <th>Designation</th>
+                        <th>Spceiality</th>
+                        <th>Inst.Address</th>
+                        <th>Chamber Ad</th>
+                        <th>Pati-insti/day</th>
+                        <th>Pati-cham/day</th>
+                        <th>Distict</th>
+                        <th>Police st.</th>
+                        <th>Mobile</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">01</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.m.a.halim</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 04.00pm-9.00pm & Fri:4pm-8pm</td>
+                        <td data-title="Degree">MBBS,fcps(medicine)</td>
+                        <td data-title="Designation">associ.prof.</td>
+                        <td data-title="Spceiality">medicine specialist</td>
+                        <td data-title="Inst.Address">amumch, noakhali</td>
+                        <td data-title="Chamber Ad">al-kemy hospital</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">25</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01712109620</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">02</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.md.ashraf ali</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 04.00pm-8.00pm & Fri:10am-1pm ,4pm-8pm</td>
+                        <td data-title="Degree">MBBS,mcps, md(cardiology)</td>
+                        <td data-title="Designation">Associ.prof.</td>
+                        <td data-title="Spceiality">cardiologist</td>
+                        <td data-title="Inst.Address">amumch, noakhali</td>
+                        <td data-title="Chamber Ad">al-kemy hospital</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">20</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01712524324</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">03</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.jahangir alam</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 05.00pm-08.00pm</td>
+                        <td data-title="Degree">MBBS, fcps(child)</td>
+                        <td data-title="Designation">assist.prof.</td>
+                        <td data-title="Spceiality">child specialist</td>
+                        <td data-title="Inst.Address">amumch, noakhali</td>
+                        <td data-title="Chamber Ad">al-kemy hospital</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">25</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01869865547</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">04</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.shekh mohammod abdullah</td>
+                        <td data-title="Chamber-day+time" class="time-bg">sun-Thu: 05.00pm-08.00pm</td>
+                        <td data-title="Degree">MBBS,mcps(surgery),ms(pediatric surgery)</td>
+                        <td data-title="Designation">assist.prof</td>
+                        <td data-title="Spceiality">surgeon</td>
+                        <td data-title="Inst.Address">amumch, noakhali</td>
+                        <td data-title="Chamber Ad">al-kemy hospital</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">10</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01750940608</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">05</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.md.jamal uddin</td>
+                        <td data-title="Chamber-day+time" class="time-bg">sat-thu: 05.00pm-08.00pm</td>
+                        <td data-title="Degree">MBBS,d-ortho</td>
+                        <td data-title="Designation">consultant</td>
+                        <td data-title="Spceiality">orthopedicts</td>
+                        <td data-title="Inst.Address">Sadar hospital, feni</td>
+                        <td data-title="Chamber Ad">al-kemy hospital</td>
+                        <td data-title="Pati-insti/day">20</td>
+                        <td data-title="Pati-cham/day">10</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01711123863</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">06</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.taslima akter</td>
+                        <td data-title="Chamber-day+time" class="time-bg">sat-thu: 05.00pm-08.00pm & Fri:6pm-8pm</td>
+                        <td data-title="Degree">MBBS,mcps, dgo</td>
+                        <td data-title="Designation">consultant</td>
+                        <td data-title="Spceiality">gynea & obs</td>
+                        <td data-title="Inst.Address">N/A</td>
+                        <td data-title="Chamber Ad">al-kemy hospital</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">10</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01819957336</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">07</td>
+                        <td data-title="Dr.Name" class="dr-bg">professor dr.md.yousof</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Fri: 09.00am-06.00pm</td>
+                        <td data-title="Degree">MBBS,mcps, dlo, fcps</td>
+                        <td data-title="Designation">head of department</td>
+                        <td data-title="Spceiality">ent specialist</td>
+                        <td data-title="Inst.Address">Delta medical college & hospital, mirpur-1, dhaka</td>
+                        <td data-title="Chamber Ad">al-kemy hospital</td>
+                        <td data-title="Pati-insti/day">20</td>
+                        <td data-title="Pati-cham/day">25</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">00000</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">08</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.somith roy chowdhury</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Fri: 10.00am-02.00pm</td>
+                        <td data-title="Degree">MBBS,fcps(p.medicine)</td>
+                        <td data-title="Designation">assist.prof.</td>
+                        <td data-title="Spceiality">physical medicine</td>
+                        <td data-title="Inst.Address">cmch, chittagong</td>
+                        <td data-title="Chamber Ad">al-kemy hospital</td>
+                        <td data-title="Pati-insti/day">20</td>
+                        <td data-title="Pati-cham/day">15</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">00000</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- Al-Kemy Hospital end -->
+
+    <!-- Feni Al-Baraka Hospital start -->
+    <section class="hospital-section">
+        <h2 class="title">Doctors of <strong>Feni Al-baraka Hospital & digital d/c</strong> - <span>(V.I.P. tower)Shahid shaidullah kaysar(S.S.K) road, feni</span> :</h2>
+        <div class="r-style">
+            <table class="smart-table">
+                <thead>
+                    <tr>
+                        <th>Sl.No</th>
+                        <th>Dr.Name</th>
+                        <th>Chamber-day+time</th>
+                        <th>Degree</th>
+                        <th>Designation</th>
+                        <th>Spceiality</th>
+                        <th>Inst.Address</th>
+                        <th>Chamber Ad</th>
+                        <th>Pati-insti/day</th>
+                        <th>Pati-cham/day</th>
+                        <th>Distict</th>
+                        <th>Police st.</th>
+                        <th>Mobile</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">01</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.Fahmida yasmin</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-Thu: 05.00pm-8.00pm & Fri:10am-1pm</td>
+                        <td data-title="Degree">MBBS,fcps</td>
+                        <td data-title="Designation">medical officer</td>
+                        <td data-title="Spceiality">gynea & obs</td>
+                        <td data-title="Inst.Address">sadar hospital, feni</td>
+                        <td data-title="Chamber Ad">al-baraka hospital</td>
+                        <td data-title="Pati-insti/day">20</td>
+                        <td data-title="Pati-cham/day">20</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">01762545761</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">02</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.md.mahfuzur rahman</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Sat-wed: 04.00pm-7.00pm</td>
+                        <td data-title="Degree">MBBS,mcps, md(cardiology)</td>
+                        <td data-title="Designation">Assist.prof.</td>
+                        <td data-title="Spceiality">cardiologist</td>
+                        <td data-title="Inst.Address">amumch, noakhali</td>
+                        <td data-title="Chamber Ad">al-baraka hospital</td>
+                        <td data-title="Pati-insti/day">N/A</td>
+                        <td data-title="Pati-cham/day">10</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">000000</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">03</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.kazi mizanur rahman</td>
+                        <td data-title="Chamber-day+time" class="time-bg">tue: 04.00pm-08.00pm</td>
+                        <td data-title="Degree">MBBS,ms(orthopedics)</td>
+                        <td data-title="Designation">assist.prof.</td>
+                        <td data-title="Spceiality">orthopedics</td>
+                        <td data-title="Inst.Address">nitor, dhaka</td>
+                        <td data-title="Chamber Ad">al-baraka hospital</td>
+                        <td data-title="Pati-insti/day">20</td>
+                        <td data-title="Pati-cham/day">15</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">00000</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">04</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.md.tanvir hasan</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Fri: 09.00am-03.00pm</td>
+                        <td data-title="Degree">MBBS,md(nefrology)</td>
+                        <td data-title="Designation">consultant</td>
+                        <td data-title="Spceiality">medicine</td>
+                        <td data-title="Inst.Address">bsmmu, dhaka</td>
+                        <td data-title="Chamber Ad">al-baraka hospital</td>
+                        <td data-title="Pati-insti/day">20</td>
+                        <td data-title="Pati-cham/day">15</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">010000</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    <tr>
+                        <td data-title="Sl.No" class="sl-color">05</td>
+                        <td data-title="Dr.Name" class="dr-bg">Dr.md.arifuzzaman</td>
+                        <td data-title="Chamber-day+time" class="time-bg">Fri: 09.00am-02.00pm</td>
+                        <td data-title="Degree">MBBS,dlo</td>
+                        <td data-title="Designation">assist.register</td>
+                        <td data-title="Spceiality">ent</td>
+                        <td data-title="Inst.Address">cmch,chittagong</td>
+                        <td data-title="Chamber Ad">al-baraka hospital</td>
+                        <td data-title="Pati-insti/day">20</td>
+                        <td data-title="Pati-cham/day">15</td>
+                        <td data-title="Distict">feni</td>
+                        <td data-title="Police st.">feni</td>
+                        <td data-title="Mobile">000000</td>
+                        <td data-title="E-mail">N/A</td>
+                    </tr>
+                    
+                    
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- Feni Al-Baraka Hospital end -->
+
+</body>
+</html>
